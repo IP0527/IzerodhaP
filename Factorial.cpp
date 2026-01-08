@@ -10,6 +10,10 @@
 
         cout << " Enter a number : ";
         cin >> n;
+        if(n==0){
+            fact = 1;
+        }
+            
 
         do{
             fact *= i;
@@ -20,5 +24,6 @@
         cout << " Factorial of " << n << " is " << fact;
 
     }
+
 
     
